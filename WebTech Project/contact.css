@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #334d9f;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.header .top {
+    margin: 2rem 15rem 10rem 0rem; 
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.header .top .logo {
+    margin-right: 20rem;
+    width: 26rem;
+    height: 4rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.contact-info {
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  margin-top: -20px;
+}
+
+.contact-info h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 100px;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.ellipse-container {
+  margin-right: 2rem; 
+  box-sizing: border-box;
+  padding: 1rem 1rem;
+  height: 100%;
+  background-color: #d9d9d9;
+  border-radius: 50%; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+     padding: 30px 40px 20px; 
+     background-color: #fff;
+     border-radius: 40px;
+     margin-bottom: 80px;
+     margin-left: 700px;
+     margin-top: -380px;
+     height: 600px;
+     width: 600px;
+}
+
+.contact-form h2{
+    font-size: 36px;
+}
+
+.contact-form p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-form input {
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    width: 76%;
+    padding: 70px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.buttons {
+            text-align: right;
+            margin-top: 10px; 
+        }
+
+        /* Style for the buttons */
+        .buttons button {
+            margin-left: 5px;
+            padding: 10px 20px;
+            background-color: #5c6bc0;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+          }
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+.connect {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center; 
+    margin-left: 550px;
+    margin-top: -20px;
+}
+
+.connect a {
+    display: inline-grid;
+    margin-bottom: 50px; 
+    margin-right: 20px;
+}
+
+
+/* Style for the copyright section */
+.copyright {
+    justify-content: center;
+    color: #000;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: #d9d9d9;
+    align-items: start;
+    padding: 20px 60px 20px 120px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+  }
+  @media (max-width: 991px) {
+    .copyright {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
+
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 90%;
+    }
+
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
