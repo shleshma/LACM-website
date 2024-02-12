@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #334d9f;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.header .top {
+    margin: 2rem 15rem 0rem 0rem; 
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.header .top .logo {
+    margin-right: 20rem;
+    width: 26rem;
+    height: 4rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ .hero img{
+  margin: -10rem 0rem 0rem 0rem;
+  width: 50rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    margin: 0rem 0;
+    text-align: center;
+}
+
+.courses p{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 100; 
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: -10px; 
+}
+
+.course {
+    margin: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses {
+    text-align: center;
+}
+
+.courses p {
+    margin-bottom: 20px;
+}
+
+.courses .course {
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    border: solid 0.1rem #ffffff;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 22rem;
+    flex-shrink: 0;
+    margin: 50px;
+    padding: 0px;
+}
+
+#BBA {
+    background-image: url('bba1.png');
+}
+
+#BBIS {
+    background-image: url('bbis1.png');
+}
+
+#BHM {
+    background-image: url('bhm1.png');
+}
+
+.courses .course:after {
+    content: attr(id);
+    display: block;
+    font-size: 42px;
+    color: white;
+    margin-top: 350px;
+}
+
+.life-at-lacm .groupLA .life-at-lacm-A44 {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 100; 
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 150px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.life-at-lacm .groupLA .pic1 {
+  width: 96rem;
+  height: 50rem; 
+  padding: 0px 0px 0px 0px;
+}
+
+.life-at-lacm .groupLA .pic2{
+  width: 60rem;
+  height: 30rem; 
+  padding: 0px 0px 0px 0px;
+  margin-top: -100px;
+}
+
+.life-at-lacm .groupLA .pic3 {
+     width: 46rem;
+     height: 30rem; 
+     padding: 0px 0px 19px 800px;
+     margin-top: -800px;
+}
+
+.life-at-lacm .groupLA .pic4{
+  width: 50rem;
+  height: 28rem; 
+  padding: 0px 0px 0px 0px;
+  margin-top: -100px;
+}
+
+.life-at-lacm .groupLA .pic5 {
+     width: 46rem;
+     height: 26rem; 
+     padding: 0px 0px 19px 800px;
+     margin-top: -800px;
+}
+
+/* Style for the copyright section */
+.copyright {
+    justify-content: center;
+    color: #000;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: #d9d9d9;
+    align-items: start;
+    padding: 20px 60px 20px 120px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+  }
+  @media (max-width: 991px) {
+    .copyright {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+    .courses {
+        flex-direction: column;
+    }
+}
